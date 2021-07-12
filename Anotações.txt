@@ -24,3 +24,6 @@ scroll-behavior: smooth
 }
 
 2. Dar atenção aos códigos em JavaScript que são extremamente fáceis no código.
+
+3. Para o PDF funcionar é necessário estar conectado a um servidor. 
+
