@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="en">
+    <html lang="pt">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>CV | Gabriel C.</title>
+        <title>Gabriel | CV</title>
     </head>
     <body>
         <!--========== HEADER ==========-->
@@ -21,43 +21,54 @@
                     <ul class="nav__list">
                         <li class="nav__item">
                             <a href="#home" class="nav__link active-link">
-                                <i class="bx bx-home nav__icon"></i>Home
+                                <i class="bx bx-home nav__icon"></i>Início
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#profile" class="nav__link">
-                                <i class="bx bx-user nav__icon"></i>Profile
+                                <i class="bx bx-user nav__icon"></i>Perfil
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#social" class="nav__link">
+                                <i class="bx bx-user-pin nav__icon"></i>Social
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#education" class="nav__link">
-                                <i class="bx bx-book nav__icon"></i>Education
+                                <i class="bx bx-book nav__icon"></i>Educação
                             </a>
                         </li>
-
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="bx bx-receipt nav__icon"></i>Skills
-                            </a>
-                        </li>
-
+                        
                         <li class="nav__item">
                             <a href="#experience" class="nav__link">
-                                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+                                <i class="bx bx-briefcase-alt nav__icon"></i>Experiências
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-bar-chart nav__icon"></i>Conhecimentos
                             </a>
                         </li>
 
                         <li class="nav__item">
-                            <a href="#certificates" class="nav__link">
-                                <i class="bx bx-award nav__icon"></i>Certificates
+                            <a href="#languages" class="nav__link">
+                                <i class="bx bx-world nav__icon"></i>Idiomas
                             </a>
                         </li>
 
                         <li class="nav__item">
-                            <a href="#references" class="nav__link">
-                                <i class="bx bx-link-external nav__icon"></i>References
+                            <a href="#interests" class="nav__link">
+                                <i class="bx bx-heart nav__icon"></i>Interesses
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#future" class="nav__link">
+                                <i class="bx bx-pencil nav__icon"></i>Futuro
                             </a>
                         </li>
                     </ul>
@@ -76,25 +87,13 @@
                     <section class="home" id="home">
                         <div class="home__container section bd-grid">
                             <div class="home__data bd-grid">
-                                <img src="assets/img/perfil.jpg" alt="" class="home__img">
+                                <img src="assets/img/perfil.jpeg" alt="" class="home__img">
 
-                                <h1 class="home__title">Gabriel <b>Carvalho</b></h1>
-                                <h3 class="home__profession">Web Developer</h3>
+                                <h1 class="home__title"><b>Gabriel Carvalho</b></h1>
+                                <h3 class="home__profession">Front-end | Estudante</h3>
 
                                 <div>
-                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
-                                </div>
-                                
-                                <div class="home__adress bd-grid">
-                                    <span class="home__information">
-                                        <i class="bx bx-map home__icon"></i>Al. dos Ingás, Ilhabela
-                                    </span>
-                                    <span class="home__information">
-                                        <i class="bx bx-envelope home__icon"></i>use@email.com
-                                    </span>
-                                    <span class="home__information">
-                                        <i class="bx bx-phone home__icon"></i>+55 12 98117-3031
-                                    </span>
+                                    <a download="Gabriel Carvalho | CV" href="assets/pdf/Gabriel C..pdf" class="home__button-movil">Download | CV</a>
                                 </div>
                             </div>
                         </div>
@@ -102,39 +101,53 @@
                         <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
                         
                         <!-- Button to generate and download the pdf. Available for desktop. -->
-                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
-                        
-                    </section>          
+                        <a download="Gabriel Carvalho | CV" href="assets/pdf/Gabriel C..pdf" class="bx bx-download generate-pdf" title="Download"></a>
+                    </section>       
+                    
+                    <section class="about section">
+                        <h2 class="section-title">SOBRE</h2>
+                        <div class="home__adress bd-grid">
+                            <span class="home__information">
+                                <i class="bx bx-map home__icon"></i><a href="https://goo.gl/maps/UuLHPyEfoBnCPgXv7" target="_blank">Ilhabela, SP - Brasil</a>
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-envelope home__icon"></i><a href="mailto: arrobacarvalho@gmail.com" target="_blank">arrobacarvalho@gmail.com</a>
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-phone home__icon"></i><a href="https://api.whatsapp.com/send?phone=5512981173031" target="_blank">+55 12 98117-3031</a>
+                            </span>
+                        </div>
+                    </section>
                     
                     <!--========== SOCIAL ==========-->
-                    <section class="social section">
-                        <h2 class="section__title">SOCIAL</h2>
+                    <section class="social section" id="social">
+                        <h2 class="section-title">SOCIAL</h2>
                         
                         <div class="social__container bd-grid">
                             <a href="https://www.linkedin.com/in/ogacarvalho/"  target="_blank" class="social__link">
-                                <i class="bx bxl-linkedin-square social__icon"></i>@ogacarvalho
+                                <i class="bx bxl-linkedin-square social__icon"></i>
                             </a>
-                            <a href="https://www.facebook.com/" target="_blank" class="social__link">
-                                <i class="bx bxl-facebook social__icon"></i>@ogacarvalho
+                            <a href="https://www.instagram.com/ogacarvalho/" target="_blank" class="social__link">
+                                <i class="bx bxl-instagram social__icon"></i>
                             </a>
-                            <a href="https://www.instagram.com/" target="_blank" class="social__link">
-                                <i class="bx bxl-instagram social__icon"></i>@ogacarvalho
+                            <a href="https://github.com/ogacarvalho" target="_blank" class="social__link">
+                                <i class="bx bxl-github social__icon"></i>
                             </a>
                         </div>
                     </section>
 
                     <!--========== PROFILE ==========-->
                     <section class="profile section" id="profile">
-                        <h2 class="section-title">Profile</h2>
+                        <h2 class="section-title">Perfil</h2>
 
                         <p class="profile__description">
-                            I am a person, responsible with their work during working hours. Finish various technical and higher studies at large universities. I have several years of experience and achievements in the labor field.
+                            Sou um estudante de programação com um background em Design e Marketing e atualmente faço pequenas participações em projetos abertos de Front-end. Como profissional sou responsável e altamente capacitado na entrega de resultados, buscando sempre a melhor e mais eficiente maneira de atingir o objetivo. Como pessoa sou otimista e sempre positivo.
                         </p>
                     </section>
                     
                     <!--========== EDUCATION ==========-->
                     <section class="education section" id="education">
-                        <h2 class="section-title">Education</h2>
+                        <h2 class="section-title">Educação</h2>
                         <div class="education__container bd-grid">
                             <div class="education__content">
                                 <div class="education__time">
@@ -142,9 +155,9 @@
                                     <span class="education__line"></span>
                                 </div>
                                 <div class="education__data bd-grid">
-                                    <h3 class="education__title">MASTER OF DESIGN</h3>
-                                    <span class="education__studies">University of Studies</span>
-                                    <span class="education__year">2010 - 2015</span>
+                                    <h3 class="education__title">PUBLICIDADE</h3>
+                                    <span class="education__studies">Cruzeiro do Sul</span>
+                                    <span class="education__year">2015 - 2017</span>
                                 </div>
                             </div>
                         </div>
@@ -155,9 +168,9 @@
                                     <span class="education__line"></span>
                                 </div>
                                 <div class="education__data bd-grid">
-                                    <h3 class="education__title">WEB DEVELOPER</h3>
-                                    <span class="education__studies">Institute of Studies</span>
-                                    <span class="education__year">2016 - 2019</span>
+                                    <h3 class="education__title">MARKETING</h3>
+                                    <span class="education__studies">FGV</span>
+                                    <span class="education__year">2017 - 2018</span>
                                 </div>
                             </div>
                         </div>
@@ -168,53 +181,21 @@
                                     <!-- <span class="education__line"></span> -->
                                 </div>
                                 <div class="education__data bd-grid">
-                                    <h3 class="education__title">MASTER IN UI/UX</h3>
-                                    <span class="education__studies">University of Studies</span>
-                                    <span class="education__year">2019 - 2021</span>
+                                    <h3 class="education__title">PROGRAMAÇÃO</h3>
+                                    <span class="education__studies">Alura | SENAC</span>
+                                    <span class="education__year">2020 - Atualmente</span>
                                 </div>
                             </div>
                         </div>
                     </section>
-
-
-                    <!--========== SKILLS  ==========-->
-                    <section class="skills section" id="skills">
-                         <h2 class="section-title">Skills</h2>
-                         <div class="skills__content bd-grid">
-                             <ul class="skills__data">
-                                 <li class="skills__name">
-                                     <span class="skills__circle"></span> Html
-                                 </li>
-                                 <li class="skills__name">
-                                    <span class="skills__circle"></span> Css
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Sass
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> JavaScript
-                                </li>
-                             </ul>
-                             <ul class="skills__data">
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Angular
-                                </li>
-                                <li class="skills__name">
-                                   <span class="skills__circle"></span> Firebase
-                               </li>
-                               <li class="skills__name">
-                                   <span class="skills__circle"></span> React
-                               </li>
-                            </ul>
-                         </div>
-                    </section>
+                    
 
                 </div>
 
                 <div class="resume__right">
                     <!--========== EXPERIENCE ==========-->
                     <section class="experience section" id="experience">
-                        <h2 class="section-title">Experience</h2>
+                        <h2 class="section-title">Experiências</h2>
 
                         <div class="experience__container bd-grid">
                             <div class="experience__content">
@@ -223,9 +204,9 @@
                                     <span class="experience__line"></span>
                                 </div>
                                 <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">MASTER OF DESIGN</h3>
-                                    <span class="experience__company">From 2013 to 2015 | Tech Soft</span>
-                                    <p class="experience__description"> Work in this company dedicating the best responsability in the area that corresponds, delivering the best results for the company and improving productivity.</p>
+                                    <h3 class="experience__title">SUPORTE E MANUTENÇÃO</h3>
+                                    <span class="experience__company">Grupo Fórum | Empresa de Comunicação</span>
+                                    <p class="experience__description">Ajudando na Manutenção e no Suporte de +100 computadores da companhia.</p>
                                 </div>
                             </div>
                             <div class="experience__content">
@@ -234,9 +215,9 @@
                                     <span class="experience__line"></span>
                                 </div>
                                 <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">UI / UX DESIGN AREA</h3>
-                                    <span class="experience__company">From 2017 to 2019 | Tech Soft</span>
-                                    <p class="experience__description"> Work in this company dedicating the best responsability in the area that corresponds, delivering the best results for the company and improving productivity.</p>
+                                    <h3 class="experience__title">DESIGNER GRÁFICO</h3>
+                                    <span class="experience__company">Dublin, Irlanda</span>
+                                    <p class="experience__description">Criação de logos, artes visuais e outros, para empresas e pessoas físicas durante um intercâmbio que fiz para aperfeiçoar o inglês.</p>
                                 </div>
                             </div>
                             <div class="experience__content">
@@ -245,73 +226,58 @@
                                     <!-- <span class="experience__line"></span> -->
                                 </div>
                                 <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">MOBILE APPLICATION DEVELOPER</h3>
-                                    <span class="experience__company">From 2019 to 2021 | App Tech.</span>
-                                    <p class="experience__description"> Work in this company dedicating the best responsability in the area that corresponds, delivering the best results for the company and improving productivity.</p>
+                                    <h3 class="experience__title">ASSIST. DE MARKETING</h3>
+                                    <span class="experience__company">Joalherias Eduardo | Florianópolis, SC</span>
+                                    <p class="experience__description">Responsável pela busca contínua de novas ferramentas de Marketing bem como a elaboração e aplicação das mesmas e também acompanhamento/suporte de todos os projetos de Marketing da Eduardo, sendo eles Digital, Rádio ou Televisão.</p>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                     </section>
 
-                    <!--========== CERTIFICATES ==========-->
-                    <section class="certificate section" id="certificates">
-                        <h2 class="section-title">Certificates</h2>
-                        <div class="certificate__container bd-grid">
-
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">Certificate for compliance in the work area (2012).</h3>
-                                <p class="certification__description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
-                            </div>
-                            
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">Certificate of attendance on computer technology.</h3>
-                                <p class="certification__description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
-                            </div>
-
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">Achievement medal for productivity excellence during the year (2019).</h3>
-                                <p class="certification__description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
-                            </div>
+                     <!--========== SKILLS  ==========-->
+                     <section class="skills section" id="skills">
+                        <h2 class="section-title">Conhecimentos</h2>
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> HTML
+                                </li>
+                                <li class="skills__name">
+                                   <span class="skills__circle"></span> CSS
+                               </li>
+                            </ul>
+                               <ul class="skills__data">
+                               <li class="skills__name">
+                                   <span class="skills__circle"></span> JavaScript
+                               </li>
+                               <li class="skills__name">
+                                   <span class="skills__circle"></span> Marketing
+                               </li>
+                            </ul>
+                               <ul class="skills__data">
+                               <li class="skills__name">
+                                  <span class="skills__circle"></span> Bilíngue
+                              </li>
+                              <li class="skills__name">
+                                  <span class="skills__circle"></span> Design
+                              </li>
+                           </ul>
                         </div>
-                    </section>
-
-                    <!--========== REFERENCES ==========-->
-                    <section class="references section" id="references">
-                        <h2 class="section-title">References</h2>
-
-                        <div class="references__container bd-grid">
-                            <div class="references__content bd-grid">
-                                <span class="references__subtitle">Sr. Director</span>
-                                <h3 class="references__title">Mr. Clay Doe</h3>
-                                <ul class="references__contact">
-                                    <li>Phone: 999-777-555</li>
-                                    <li>Email: user@email.com</li>
-                                </ul>
-                            </div>
-                            <div class="references__content bd-grid">
-                                <span class="references__subtitle">Mag. Developer</span>
-                                <h3 class="references__title">Mr. Robbinson Bass</h3>
-                                <ul class="references__contact">
-                                    <li>Phone: 999-777-555</li>
-                                    <li>Email: user@email.com</li>
-                                </ul>
-                            </div>
-                        </div>  
-                    </section>
+                   </section>
 
                     <!--========== LANGUAGES ==========-->
-                    <section class="languages section">
-                        <h2 class="section-title">Languages</h2>
+                    <section class="languages section" id="languages">
+                        <h2 class="section-title">IDIOMAS</h2>
                         <div class="languages__container">
                             <ul class="languages__content bd-grid">
                                 <li class="languages__name">
-                                    <span class="languages__circle"></span> Spanish
+                                    <span class="languages__circle"></span> Português 
                                 </li>
                                 <li class="languages__name">
-                                    <span class="languages__circle"></span> English
+                                    <span class="languages__circle"></span> Inglês
                                 </li>
                                 <li class="languages__name">
-                                    <span class="languages__circle"></span> French
+                                    <span class="languages__circle"></span> Espanhol
                                 </li>
                             </ul>
                         </div>
@@ -319,30 +285,38 @@
                     
                     <!--========== INTERESTS ==========-->
                     <section class="interests section">
-                        <h2 class="section-title">Interests</h2>
+                        <h2 class="section-title">Interesses</h2>
 
                         <div class="interests__container bd-grid">
                             <div class="interests__content">
                                 <i class="bx bx-headphone interests__icon"></i>
-                                <span class="interests__name">Music</span>
+                                <span class="interests__name">Música</span>
                             </div>
 
                             <div class="interests__content">
-                                <i class="bx bxs-plane-alt interests__icon"></i>
-                                <span class="interests__name">Travel</span>
+                                <i class="bx bxs-joystick interests__icon"></i>
+                                <span class="interests__name">Jogos</span>
                             </div>
 
                             <div class="interests__content">
-                                <i class="bx bx-book interests__icon"></i>
-                                <span class="interests__name">Read</span>
+                                <i class="bx bx-cycling interests__icon"></i>
+                                <span class="interests__name">Pedal</span>
                             </div>
-
                             <div class="interests__content">
-                                <i class="bx bx-dumbbell interests__icon"></i>
-                                <span class="interests__name">Fitness</span>
+                                <i class="bx bx-coffee interests__icon"></i>
+                                <span class="interests__name">Café</span>
                             </div>
                         </div>
                     </section>
+                    <!--========== REFERENCES ==========-->
+                    <section class="future section" id="future">
+                        <h2 class="section-title">Futuro</h2>
+
+                        <p class="future__description">
+                            Com experiência em Marketing e Design hoje busco me especializar na área de programação onde sempre tive interesse. Estou à 6 meses estudando pela escola de tecnologia Alura e em janeiro vou iniciar o curso de Análise e Desenvolvimento de Sistemas pelo Senac.
+                        </p>
+                    </section>
+                   
                 </div>
             </div>        
         </main>
@@ -351,9 +325,6 @@
         <a href="#" class="scrolltop" id="scroll-top">
             <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
         </a>
-
-        <!--========== HTML2PDF ==========-->
-        <script src="assets/js/html2pdf.bundle.min.js"></script>
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
     </body>
