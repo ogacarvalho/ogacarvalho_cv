@@ -87,7 +87,7 @@
                     <section class="home" id="home">
                         <div class="home__container section bd-grid">
                             <div class="home__data bd-grid">
-                                <img src="assets/img/perfil.jpeg" alt="" class="home__img">
+                                <img src="assets/img/perfil.jpeg" alt="" class="home__img" id="home__img">
 
                                 <h1 class="home__title"><b>Gabriel Carvalho</b></h1>
                                 <h3 class="home__profession">Front-end | Estudante</h3>
@@ -101,7 +101,7 @@
                         <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
                         
                         <!-- Button to generate and download the pdf. Available for desktop. -->
-                        <a download="Gabriel Carvalho | CV" href="assets/pdf/Gabriel C..pdf" class="bx bx-download generate-pdf" title="Download"></a>
+                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
                     </section>       
                     
                     <section class="about section">
@@ -134,6 +134,9 @@
                                 <i class="bx bxl-github social__icon"></i>
                             </a>
                         </div>
+                        <div class="social__name bd-grid">
+                            <p>@ogacarvalho</p>
+                        </div>
                     </section>
 
                     <!--========== PROFILE ==========-->
@@ -141,7 +144,7 @@
                         <h2 class="section-title">Perfil</h2>
 
                         <p class="profile__description">
-                            Sou um estudante de programação com um background em Design e Marketing e atualmente faço pequenas participações em projetos abertos de Front-end. Como profissional sou responsável e altamente capacitado na entrega de resultados, buscando sempre a melhor e mais eficiente maneira de atingir o objetivo. Como pessoa sou otimista e sempre positivo.
+                            Sou um estudante de programação com background em Design e Marketing e atualmente faço pequenas participações em projetos abertos de Front-end. Como profissional sou responsável e altamente capacitado na entrega de resultados, buscando sempre a melhor e mais eficiente maneira de atingir o objetivo. Como pessoa sou otimista e sempre positivo.
                         </p>
                     </section>
                     
@@ -325,6 +328,8 @@
         <a href="#" class="scrolltop" id="scroll-top">
             <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
         </a>
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
     </body>
