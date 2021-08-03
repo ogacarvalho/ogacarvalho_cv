@@ -662,6 +662,11 @@ img{
 
   .resume__left{
     background-color: var(--container-color-alt);
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .resume{
+    border-radius: 10px;
   }
 
   .resume__left,
