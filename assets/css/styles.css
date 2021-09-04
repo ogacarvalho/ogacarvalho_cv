@@ -12,6 +12,7 @@
   --container-color: #FAFAFA;
   --container-color-alt: #F0EFEF;
   --body-color: #FCFCFC;
+  --border-bottom: 2px solid #403A3A;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -52,6 +53,7 @@ body.dark-theme{
   --container-color: #212121;
   --container-color-alt: #181616;
   --body-color: #2B2B2B;
+  --border-bottom: 2px solid #bfbfbf;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -429,10 +431,29 @@ img{
   align-items: center;
   font-size: var(--small-font-size);
   color: var(--text-color);
+  transition: .1s linear;
 }
 
+#projeto-1{
+  font-weight: bold;
+}
+
+#social__desc{
+  text-align: justify;
+}
+
+#projeto{
+  font-weight: bolder;
+  border-bottom: var(--border-bottom);
+  display: inline-flex;
+}
+
+#projeto:hover{
+  opacity: .5;
+}
 .social__link:hover{
   color: var(--title-color);
+  transform: translateY(-3px);
 }
 
 .social__icon{
@@ -443,7 +464,6 @@ img{
 /*========== PROFILE ==========*/
 .profile__description{
   text-align: center;
-
 }
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
@@ -611,6 +631,10 @@ img{
 .show-scroll{
   visibility: visible;
   bottom: 5rem;
+}
+
+.future__description{
+  text-align: justify;
 }
 
 /*========== MEDIA QUERIES ==========*/
