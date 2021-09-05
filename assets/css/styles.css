@@ -650,6 +650,11 @@ img{
     grid-template-columns: repeat(4, 4);
   }
 
+  .skills__data{
+    font-size: 1rem;
+  }
+
+
   #future{
     border: none;
   }
@@ -660,6 +665,13 @@ img{
     border: none;
   }
 }
+
+@media screen and (max-width: 468px){
+  .skills__data{
+    font-size: .9rem;
+  }
+}
+
 
 /* Classes modified for large screen size */
 @media screen and (min-width: 968px){
