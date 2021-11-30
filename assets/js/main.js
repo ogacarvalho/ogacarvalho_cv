@@ -1,4 +1,3 @@
-// GITHUB: BedimCode
 
 /*==================== SHOW MENU ====================*/
 const showMenu = (toggleId, navId) =>{

@@ -448,6 +448,11 @@ img{
   display: inline-flex;
 }
 
+.projeto__title{
+  font-size: 1rem;
+}
+
+
 #projeto:hover{
   opacity: .5;
 }
@@ -602,9 +607,19 @@ img{
 
 .interests__icon{
   margin: 0 10px;
-  font-size: 1.25rem;
+  font-size: 1.8rem;
   color: var(--text-color-light);
   margin-bottom: .25rem;
+}
+
+.interests__icon:hover{
+  color: var(--title-color);
+  transform: translateY(-3px); 
+  transition: .3s;
+}
+
+.interests__name{
+  font-size: .7rem;
 }
 
 /* Scroll top */
