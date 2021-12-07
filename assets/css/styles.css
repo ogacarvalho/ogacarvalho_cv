@@ -545,6 +545,10 @@ img{
   justify-content: space-evenly;
 }
 
+#ingles:hover{
+  color: #181616;
+}
+
 .skills__content{
   gap: 0;
 }
